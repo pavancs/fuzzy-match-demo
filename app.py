@@ -27,8 +27,7 @@ def main():
     if selected_screen == "Introduction":
         st.sidebar.markdown('---')
         # reading markdown
-        #
-        st.markdown(open("home.md").read())
+        st.markdown(open("./home.md").read())
     elif selected_screen == "Solution":
         screen1_render()
     elif selected_screen == "Parameter Fine-tuning":
